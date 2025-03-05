@@ -2,7 +2,7 @@ document.getElementById('getWeather').addEventListener('click', fetchWeather);
 
 async function fetchWeather() {
     const city = document.getElementById('cityInput').value;
-    const apiKey = '19eb8295ddabbe7aec1dcfb11a8f6daa';  // Your API key
+    const apiKey = 'e2ef9a48a040522ffcba66cfaa8e3e23';  // Your API key
     let url = '';
 
     // Check if the city input is empty (fetch location-based weather)
